@@ -8,6 +8,8 @@
   <entity name="AppBase" cacheable="true">
 
     <one-to-one ref="com.axelor.studio.db.App" name="app"/>
+    <integer name="issueTrackingTool" title="Issue tracking tool"
+      selection="issue.tracking.tool.select"/>
 
     <datetime name="todayDateT" title="Today date" tz="true"/>
     <many-to-one name="defaultPartnerLanguage" ref="com.axelor.apps.base.db.Language"
@@ -172,6 +174,12 @@
 	   			public static final String SEQUENCE_PER_PRODUCT_CATEGORY = "Per product category";
 
 	   			public static final int IMPORT_EXPORT_INTERFACE_EDIFACT = 1;
+
+
+	   	// TRACKING TOOL SELECT
+		public static final int TRACKING_TOOL_REDMINE = 1;
+		public static final int TRACKING_TOOL_JIRA = 2;
+
 	   		]]>
     </extra-code>
 
@@ -240,6 +248,7 @@
       <field name="processTimeout" on="UPDATE"/>
       <!-- 31 fields -->
     </track>
+
 
   </entity>
 

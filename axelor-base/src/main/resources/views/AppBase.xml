@@ -17,6 +17,7 @@
     <panel name="testingPanel" title="Testing"
       if="com.axelor.app.AppSettings.get().get('application.mode') != 'prod'">
       <field name="todayDateT"/>
+      <field name="issueTrackingTool"/>
     </panel>
     <panel-tabs name="mainPanelTab">
       <panel name="configurationPanel" title="Configuration" colSpan="12">

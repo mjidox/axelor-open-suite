@@ -6,6 +6,12 @@
 
   <!-- Nomenclature : * name : "interfaceName" + "fieldName" + ".select" -->
 
+  <selection name="issue.tracking.tool.select">
+    <option value="1">Redmine</option>
+    <option value="2">Jira</option>
+  </selection>
+
+
   <selection name="grade.1.up.to.10.select">
     <option value="1">1</option>
     <option value="2">2</option>

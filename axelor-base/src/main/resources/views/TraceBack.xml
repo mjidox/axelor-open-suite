@@ -89,4 +89,5 @@
     <call class="com.axelor.apps.base.web.TraceBackController" method="printTraceback"/>
   </action-method>
 
+
 </object-views>
