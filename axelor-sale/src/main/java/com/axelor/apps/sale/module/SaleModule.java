@@ -52,6 +52,8 @@ import com.axelor.apps.sale.service.ProductCategorySaleService;
 import com.axelor.apps.sale.service.ProductCategoryServiceSaleImpl;
 import com.axelor.apps.sale.service.SaleOrderDomainService;
 import com.axelor.apps.sale.service.SaleOrderDomainServiceImpl;
+import com.axelor.apps.sale.service.SaleOrderGeneratorService;
+import com.axelor.apps.sale.service.SaleOrderGeneratorServiceImpl;
 import com.axelor.apps.sale.service.SaleOrderGroupService;
 import com.axelor.apps.sale.service.SaleOrderGroupServiceImpl;
 import com.axelor.apps.sale.service.app.AppSaleService;
