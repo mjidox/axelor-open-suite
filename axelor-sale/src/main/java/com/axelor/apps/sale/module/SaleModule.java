@@ -247,6 +247,7 @@ public class SaleModule extends AxelorModule {
     bind(SaleOrderLineInitValueService.class).to(SaleOrderLineInitValueServiceImpl.class);
     bind(SaleOrderObserver.class);
     bind(SaleOrderConfirmService.class).to(SaleOrderConfirmServiceImpl.class);
+    bind(SaleOrderGeneratorService.class).to(SaleOrderGeneratorServiceImpl.class);
     bind(SaleOrderLineCheckService.class).to(SaleOrderLineCheckServiceImpl.class);
   }
 }
